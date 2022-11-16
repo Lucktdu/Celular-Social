@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+html, body {
+
+    height: 100vh;
+    width: 100vw;
+
+    background: rgba(137, 43, 226, 0.47);
+}
+body {
+    background: url(imagens/fundo-madeira-com-luz.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+main {
+    position: relative;
+    height: 100vh;
+    
+   
+}
+
+#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    
+    height: 600px;
+    width: 300px;
+    
+    background-image: url(imagens/CelularSVG.svg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+   
+    
+    
+ 
+}
+
+
+
+iframe#tela {
+    position: relative;
+    top: 18px;
+    left: 14px;
+    height: 563px;
+    width: 272px;
+    border-radius: 30px;
+    
+  
+}
+
+
+/*
+#redes-sociais {
+   
+    
+   position: absolute;
+    background-color: rgb(13, 12, 14);
+    margin-left: 87%;
+    width: 200px;
+    height: 100vh;
+
+}
